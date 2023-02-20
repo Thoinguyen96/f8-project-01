@@ -4,6 +4,12 @@
 :root {
     --primary-color: #0f1b4c;
 }
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -44,6 +50,7 @@ a {
     position: relative;
     background: #e6f0ff;
     height: calc(100vh - 90px);
+    justify-content: center;
 }
 .navbar {
     display: flex;
@@ -73,27 +80,25 @@ a {
     padding: 13px 16px;
     margin-left: 28px;
 }
-.hero {
-    margin-top: 130px;
-}
-.hero .info {
+
+.hero-wrap .info {
     width: 51%;
 }
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0.01em;
     color: #687691;
 }
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     font-weight: 700;
     font-size: 6.4rem;
     line-height: 1.19;
     color: #000336;
 }
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     font-weight: 400;
     font-size: 1.8rem;
