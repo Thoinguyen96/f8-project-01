@@ -58,6 +58,7 @@ a {
     padding: 12px 0;
     background: #e6f0ff;
 }
+
 .navbar ul {
     display: flex;
 }
@@ -266,7 +267,6 @@ a {
     width: 100%;
 }
 .Featured .item {
-    flex: 1;
     background: #f5fafe;
     border-radius: 12px;
     border-radius: 12px;
